@@ -9,5 +9,5 @@ If you'd like, we can schedule a time to discuss these potential improvements in
 
 
 To run it:
- - cd LibreTranslate &&  ./run.sh --load-only en,es,de,pt,fr --update-models
+ - clone LibreTranslate &&  ./run.sh --load-only en,es,de,pt,fr --update-models
  - cd client && npm install && npm run start
