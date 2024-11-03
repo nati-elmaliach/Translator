@@ -6,6 +6,7 @@ const queryCache: { [key: string]: string } = {}
 async function translate(q: string, source: LangType, target: LangType) {
     const key = `${q}-${source}-${target}`;
     const cachedValue = queryCache[key];
+    // TODO: better caching
     if (cachedValue) {
         return cachedValue
     }
